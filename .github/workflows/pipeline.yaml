@@ -42,4 +42,5 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: Narbutis/app-fastapi-demo:latest, Narbutis/app-fastapi-demo:${{ github.run_number }}
+          tags: Narbutis/fast-api-test:latest, Narbutis/fast-api-test:${{ github.run_number }}
+          #tags: Narbutis/app-fastapi-demo:latest, Narbutis/app-fastapi-demo:${{ github.run_number }}
