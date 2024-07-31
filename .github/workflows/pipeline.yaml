@@ -44,4 +44,4 @@ jobs:
           push: true
           tags: Narbutis/fast-api-test:latest, Narbutis/fast-api-test:${{ github.run_number }}
           #tags: Narbutis/app-fastapi-demo:latest, Narbutis/app-fastapi-demo:${{ github.run_number }}
-          # mudei a senha no docker
+          # resetei a senha no docker
